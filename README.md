@@ -1,11 +1,17 @@
-# epitech_repo_create
-Crée un répertoire ayant les droits de ramassage par défault et permettant d'ajouter des utilisateurs avec les droits RW en plus.
+#Epitech Repo Creator
 
-Usage:
-Ouvrir le script et changer la 10ème ligne par votre login epitech
-repo_create: repository_name [login_1] [login_2] [login_3] [...]
+Script permet de créer un répertoire git Epitech de manière automatisée.
+Cette version est un fork du script originel créé par François Rotta (rotta_f) afin de convenir aux étudiants redoublants.
+Elle inclut donc l'adresse mail pour la création et le don de permissions en plus du login pour le `git clone`
 
-Made by Francois Rotta
 
-Contact:
-francois.rotta@epitech.eu
+#Usage
+Veuillez modifier les variables `mail` et `login` respectivement lignes 10 et 11 en fonction.
+Vous pouvez copier l'executable dans votre dossier bin ainsi : `sudo cp repo_make /usr/bin/`
+
+Exemple d'usage :
+`repo_make CPE_$YEAR_project login_x login_y login_z`
+
+
+#Credits
+François Rotta - Pour le script originel
